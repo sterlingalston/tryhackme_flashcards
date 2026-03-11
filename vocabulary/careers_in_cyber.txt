@@ -1,0 +1,11 @@
+Security Engineer|Develops and implements security solutions using threat and vulnerability data; works across web, network, and evolving attack vectors.|career role
+Incident Responder|Responds to security breaches; creates plans and protocols for organizations to follow during and after incidents.|career role
+MTTD|Mean Time to Detect; an incident response metric measuring how quickly a threat is discovered.|incident response metric
+MTTA|Mean Time to Acknowledge; an incident response metric measuring how quickly a threat is acknowledged after detection.|incident response metric
+MTTR|Mean Time to Respond (or Recover); an incident response metric measuring how quickly a team recovers from an attack.|incident response metric
+Digital Forensics Examiner|Collects and analyses digital evidence to help solve crimes or investigate policy violations within a network.|career role
+Malware Analyst|Performs static and dynamic analysis of malicious programs, including reverse-engineering, to understand and document their behavior.|career role
+Penetration Tester|Conducts authorized tests on computer systems, networks, and web applications to find and report security vulnerabilities.|career role
+Red Teamer|Emulates threat actor behavior to uncover exploitable vulnerabilities, maintain access, and avoid detection within a target organization.|career role
+Static Analysis|Examining malware code without executing it; often involves reverse-engineering.|malware analysis technique
+Dynamic Analysis|Observing malware behavior by running it in a controlled/sandboxed environment.|malware analysis technique

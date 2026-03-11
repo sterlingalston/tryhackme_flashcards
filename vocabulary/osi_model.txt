@@ -1,0 +1,17 @@
+OSI Model|Open Systems Interconnection Model; a 7-layer framework that standardizes how networked devices send, receive, and interpret data.|OSI model
+Encapsulation|The process of adding layer-specific information to data as it travels down the OSI model stack before transmission.|OSI model
+Layer 1 - Physical|The lowest OSI layer; deals with physical hardware and the transmission of raw binary data via electrical signals.|OSI layer
+Layer 2 - Data Link|OSI layer responsible for physical addressing (MAC addresses) and presenting data in a format suitable for transmission.|OSI layer
+Layer 3 - Network|OSI layer responsible for routing and reassembling data packets; uses IP addresses; includes protocols like OSPF and RIP.|OSI layer
+Layer 4 - Transport|OSI layer that determines how data is transmitted between devices; uses TCP or UDP.|OSI layer
+NIC|Network Interface Card; hardware in every network-enabled computer that comes with a unique MAC address assigned by the manufacturer.|networking hardware
+OSPF|Open Shortest Path First; a Layer 3 routing protocol that determines optimal data paths based on fewest hops and reliability.|routing protocol
+RIP|Routing Information Protocol; a Layer 3 routing protocol used to determine optimal paths for data across a network.|routing protocol
+TCP|Transmission Control Protocol; a Layer 4 protocol that guarantees data delivery through error-checking and maintains a constant connection.|protocol
+UDP|User Datagram Protocol; a Layer 4 protocol that sends data without guaranteeing delivery; faster but less reliable than TCP.|protocol
+TCP - File Sharing|A common use case for TCP where guaranteed, ordered delivery is critical.|TCP use case
+TCP - Internet Browsing|A common use case for TCP requiring reliable data transfer between client and server.|TCP use case
+TCP - Email|A common use case for TCP where complete and accurate message delivery is required.|TCP use case
+TCP Three-Way Handshake|The process TCP uses to establish a connection: SYN, SYN-ACK, ACK between two devices before data transfer.|TCP concept
+UDP - Video Streaming|A common use case for UDP where speed is prioritized over guaranteed delivery.|UDP use case
+UDP - Online Gaming|A common use case for UDP where low latency is more important than perfect data reliability.|UDP use case

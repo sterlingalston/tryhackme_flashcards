@@ -1,0 +1,24 @@
+LAN|Local Area Network; a network covering a small geographical area such as a home, office, or school.|network type
+Topology|The design or layout of a network, describing how devices are connected to each other.|networking concept
+Star Topology|All devices connect to a central switch or hub; most common topology; scalable but expensive and fails if the central device fails.|network topology
+Bus Topology|All devices share a single backbone cable; cost-efficient but prone to bottlenecks and has a single point of failure.|network topology
+Ring Topology|Devices connect in a loop; data travels in one direction; easy to troubleshoot but a cable cut breaks the whole network.|network topology
+Backbone Cable|The single shared cable in a bus topology that all devices connect to.|network topology
+Switch|A networking device that connects multiple devices within a network and intelligently forwards data only to the intended port.|networking device
+Hub|A basic networking device that sends incoming data to every connected port, unlike a switch which targets specific ports.|networking device
+Router|A device that connects multiple networks together and routes data packets between them.|networking device
+Routing|The process of determining the optimal path for data to travel across networks.|networking concept
+Subnetting|The practice of splitting a larger network into smaller sub-networks to improve efficiency, security, and control.|networking concept
+Subnet Mask|A 32-bit number used to divide an IP address into network and host portions for subnetting.|addressing
+Network Address|The IP address that identifies the start of a subnet (e.g. 192.168.1.0).|addressing
+Host Address|An IP address used to identify a specific device within a subnet.|addressing
+Default Gateway|A device on the network that routes traffic destined for other networks; typically the first or last host address.|addressing
+ARP|Address Resolution Protocol; maps IP addresses to MAC addresses on a local network by broadcasting requests.|protocol
+ARP Request|A broadcast message asking "What MAC address owns this IP address?" sent to all devices on the network.|protocol
+ARP Reply|A response to an ARP request containing the MAC address that owns the queried IP address.|protocol
+ARP Cache|A local table stored on each device that maps known IP addresses to their corresponding MAC addresses.|protocol
+DHCP|Dynamic Host Configuration Protocol; automatically assigns IP addresses to devices when they join a network.|protocol
+DHCP Discover|The initial broadcast message a device sends to find a DHCP server on the network.|protocol
+DHCP Offer|The DHCP server's response proposing an IP address for the requesting device to use.|protocol
+DHCP Request|The device's message confirming it wants to use the IP address offered by the DHCP server.|protocol
+DHCP ACK|The DHCP server's final acknowledgment that the IP address has been assigned and the device may begin using it.|protocol

@@ -1,0 +1,13 @@
+ARPANET|The first documented network, funded by the US Defence Department in the late 1960s; precursor to the modern Internet.|networking history
+WWW|World Wide Web; invented by Tim Berners-Lee in 1989, forming the basis of the Internet as we know it today.|networking history
+Private Network|A small, self-contained network (e.g. a home or office LAN) not directly exposed to the public Internet.|network type
+Public Network|The Internet; the network that connects private networks together.|network type
+IP Address|A numerical label assigned to each device on a network, used to identify and locate it; divided into four octets.|addressing
+IPv4|The original Internet Protocol addressing scheme; supports approximately 4.3 billion addresses.|addressing
+IPv6|The newer IP addressing scheme supporting up to 2^128 addresses (340 trillion+); more efficient than IPv4.|addressing
+MAC Address|Media Access Control address; a unique 12-character hexadecimal identifier assigned to a network interface at the factory.|addressing
+MAC Spoofing|The act of faking a MAC address to impersonate another device, potentially bypassing MAC-based firewall rules.|network attack
+ICMP|Internet Control Message Protocol; used by tools like ping to test the performance and reliability of a connection.|protocol
+Ping|A networking tool that uses ICMP packets to test whether a connection to a device or website exists and is reliable.|networking tool
+Octet|One of four 8-bit segments of an IPv4 address; values range from 0 to 255.|addressing
+Firewall|A hardware or software security tool that filters network traffic by blocking unauthorized incoming and outgoing connections.|security tool

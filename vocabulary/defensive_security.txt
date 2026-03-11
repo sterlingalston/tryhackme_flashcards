@@ -1,0 +1,8 @@
+Virus|A piece of code that attaches itself to a program, spreads from computer to computer, and alters/overwrites/deletes files.|malware type
+Trojan Horse|A program that appears to have a desirable function but hides malicious functionality underneath.|malware type
+Ransomware|Malicious software that encrypts a user's files and demands payment for the decryption password.|malware type
+SOC|Security Operations Center; a team responsible for monitoring and protecting an organization from cyber threats.|defensive security
+SIEM|Security Information and Event Management; a tool that gathers security-related information from various sources and presents them in one dashboard.|defensive security
+DFIR|Digital Forensics and Incident Response; the practice of investigating cyber incidents and collecting digital evidence.|defensive security
+AbuseIPDB|A threat intelligence platform used to check the reputation and location of an IP address.|threat intelligence
+Cisco Talos Intelligence|A threat intelligence service used to perform reputation and location checks for IP addresses.|threat intelligence
