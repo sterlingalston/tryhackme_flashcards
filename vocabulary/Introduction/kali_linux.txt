@@ -1,0 +1,10 @@
+1→Kali Linux|A Debian-based Linux distribution designed for digital forensics and penetration testing; comes pre-installed with many security tools.|linux distribution
+2→WSL|Windows Subsystem for Linux; allows running Linux distributions natively on Windows without a virtual machine.|tool
+3→wsl -d kali-linux|The command to launch the Kali Linux WSL distribution from a Windows terminal.|command
+4→sudo|Superuser Do; a Linux command prefix that executes the following command with elevated (root) privileges.|linux command
+5→apt|Advanced Package Tool; the package manager for Debian-based Linux distributions like Kali Linux used to install, update, and remove software.|linux command
+6→sudo apt update|Fetches the latest package lists from all configured repositories; should be run before upgrading or installing packages.|linux command
+7→sudo apt full-upgrade|Performs a complete system upgrade on Kali Linux, handling dependency changes that a standard upgrade would skip.|linux command
+8→sudo apt update && sudo apt full-upgrade -y|Combined command to refresh package lists and then fully upgrade the system, auto-confirming all prompts.|linux command
+9→
+

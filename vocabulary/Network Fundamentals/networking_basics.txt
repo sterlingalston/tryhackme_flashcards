@@ -1,13 +1,14 @@
-ARPANET|The first documented network, funded by the US Defence Department in the late 1960s; precursor to the modern Internet.|networking history
-WWW|World Wide Web; invented by Tim Berners-Lee in 1989, forming the basis of the Internet as we know it today.|networking history
-Private Network|A small, self-contained network (e.g. a home or office LAN) not directly exposed to the public Internet.|network type
-Public Network|The Internet; the network that connects private networks together.|network type
-IP Address|A numerical label assigned to each device on a network, used to identify and locate it; divided into four octets.|addressing
-IPv4|The original Internet Protocol addressing scheme; supports approximately 4.3 billion addresses.|addressing
-IPv6|The newer IP addressing scheme supporting up to 2^128 addresses (340 trillion+); more efficient than IPv4.|addressing
-MAC Address|Media Access Control address; a unique 12-character hexadecimal identifier assigned to a network interface at the factory.|addressing
-MAC Spoofing|The act of faking a MAC address to impersonate another device, potentially bypassing MAC-based firewall rules.|network attack
-ICMP|Internet Control Message Protocol; used by tools like ping to test the performance and reliability of a connection.|protocol
-Ping|A networking tool that uses ICMP packets to test whether a connection to a device or website exists and is reliable.|networking tool
-Octet|One of four 8-bit segments of an IPv4 address; values range from 0 to 255.|addressing
-Firewall|A hardware or software security tool that filters network traffic by blocking unauthorized incoming and outgoing connections.|security tool
+1→ARPANET|The first documented network, funded by the US Defence Department in the late 1960s; precursor to the modern Internet.|networking history
+2→WWW|World Wide Web; invented by Tim Berners-Lee in 1989, forming the basis of the Internet as we know it today.|networking history
+3→Private Network|A small, self-contained network (e.g. a home or office LAN) not directly exposed to the public Internet.|network type
+4→Public Network|The Internet; the network that connects private networks together.|network type
+5→IP Address|A numerical label assigned to each device on a network, used to identify and locate it; divided into four octets.|addressing|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/1dd0a56e5ee7a21bd493e4306ea23bafb9cd50e7.png
+6→IPv4|The original Internet Protocol addressing scheme; supports approximately 4.3 billion addresses.|addressing
+7→IPv6|The newer IP addressing scheme supporting up to 2^128 addresses (340 trillion+); more efficient than IPv4.|addressing
+8→MAC Address|Media Access Control address; a unique 12-character hexadecimal identifier assigned to a network interface at the factory.|addressing|https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png
+9→MAC Spoofing|The act of faking a MAC address to impersonate another device, potentially bypassing MAC-based firewall rules.|network attack
+10→ICMP|Internet Control Message Protocol; used by tools like ping to test the performance and reliability of a connection.|protocol
+11→Ping|A networking tool that uses ICMP packets to test whether a connection to a device or website exists and is reliable.|networking tool
+12→Octet|One of four 8-bit segments of an IPv4 address; values range from 0 to 255.|addressing
+13→Firewall|A hardware or software security tool that filters network traffic by blocking unauthorized incoming and outgoing connections.|security tool
+14→
