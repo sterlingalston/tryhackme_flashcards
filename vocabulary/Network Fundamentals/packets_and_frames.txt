@@ -1,0 +1,7 @@
+1→Packet|A Layer 3 (Network Layer) data unit containing an IP header and payload; the basic unit of data transmission across networks.|networking concept
+2→Frame|A Layer 2 (Data Link) data unit that encapsulates a packet and adds MAC addresses; does not contain an IP address.|networking concept
+3→Encapsulation|The process of wrapping data with layer-specific headers as it travels down the OSI model stack; each layer adds its own information.|networking concept
+4→TTL|Time to Live; a field in a packet header that sets an expiry timer to prevent packets from clogging a network if they never reach their destination.|packet header
+5→Checksum|A packet header field used for integrity checking; if data is altered in transit, the checksum will not match and the packet is considered corrupt.|packet header
+6→Source Address|The IP address of the sending device stored in a packet header, so data knows where to return to.|packet header
+7→Destination Address|The IP address of the receiving device stored in a packet header, so data knows where to travel next.|packet header
