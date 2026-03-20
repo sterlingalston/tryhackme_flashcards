@@ -2,14 +2,21 @@
 2→WWW|World Wide Web; invented by Tim Berners-Lee in 1989, forming the basis of the Internet as we know it today.|networking history
 3→Private Network|A small, self-contained network (e.g. a home or office LAN) not directly exposed to the public Internet.|network type
 4→Public Network|The Internet; the network that connects private networks together.|network type
-5→IP Address|A numerical label assigned to each device on a network, used to identify and locate it; divided into four octets.|addressing|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/1dd0a56e5ee7a21bd493e4306ea23bafb9cd50e7.png
-6→IPv4|The original Internet Protocol addressing scheme; supports approximately 4.3 billion addresses.|addressing
-7→IPv6|The newer IP addressing scheme supporting up to 2^128 addresses (340 trillion+); more efficient than IPv4.|addressing
-8→MAC Address|Media Access Control address; a unique 12-character hexadecimal identifier assigned to a network interface at the factory.|addressing|https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png
-9→MAC Spoofing|The act of faking a MAC address to impersonate another device, potentially bypassing MAC-based firewall rules.|network attack
-10→ICMP|Internet Control Message Protocol; used by tools like ping to test the performance and reliability of a connection.|protocol
-11→Ping|A networking tool that uses ICMP packets to test whether a connection to a device or website exists and is reliable.|networking tool
-12→Octet|One of four 8-bit segments of an IPv4 address; values range from 0 to 255.|addressing
-13→Firewall|A hardware or software security tool that filters network traffic by blocking unauthorized incoming and outgoing connections.|security tool
-14→ISP|Internet Service Provider; the company that provides a device's public IP address and its connection to the Internet.|networking concept
-15→
+5→IP Address|A numerical label assigned to each device on a network, used to identify and locate it; divided into four octets.|addressing
+6→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/1dd0a56e5ee7a21bd493e4306ea23bafb9cd50e7.png|What does this diagram show about IP addressing?|addressing
+7→IPv4|The original Internet Protocol addressing scheme; supports approximately 4.3 billion addresses.|addressing
+8→IPv6|The newer IP addressing scheme supporting up to 2^128 addresses (340 trillion+); more efficient than IPv4.|addressing
+9→MAC Address|Media Access Control address; a unique 12-character hexadecimal identifier assigned to a network interface at the factory.|addressing
+10→https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png|What does this diagram illustrate about MAC addresses?|addressing
+11→MAC Spoofing|The act of faking a MAC address to impersonate another device, potentially bypassing MAC-based firewall rules.|network attack
+12→ICMP|Internet Control Message Protocol; used by tools like ping to test the performance and reliability of a connection.|protocol
+13→Ping|A networking tool that uses ICMP packets to test whether a connection to a device or website exists and is reliable.|networking tool
+14→Octet|One of four 8-bit segments of an IPv4 address; values range from 0 to 255.|addressing
+15→Firewall|A hardware or software security tool that filters network traffic by blocking unauthorized incoming and outgoing connections.|security tool
+16→ISP|Internet Service Provider; the company that provides a device's public IP address and its connection to the Internet.|networking concept
+17→Public IP Address|The IP address assigned by an ISP that identifies a device on the Internet; shared across all devices on the same network.|addressing
+18→Private IP Address|The IP address used to identify a device within a private local network; not directly visible to the Internet.|addressing
+19→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/d5bfacc3d694c43c4f25438d2466466d1b7a5779.png|Public vs Private IP Address — what does this diagram show?|addressing
+20→Hexadecimal|A base-16 numbering system used in computing; uses digits 0-9 and letters A-F; commonly used in MAC addresses.|computing concept
+21→ping -c|Ping flag that limits the number of ICMP packets sent (e.g. ping -c 4 google.com sends exactly 4 packets, then stops and shows a summary).|networking command
+22→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/f55fc1c3300c1a3d1b72012ed64839deaee1404c.png|ping -c command — what does this terminal output show?|networking command

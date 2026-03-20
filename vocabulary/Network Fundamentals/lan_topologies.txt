@@ -1,25 +1,33 @@
 1→LAN|Local Area Network; a network covering a small geographical area such as a home, office, or school.|network type
 2→Topology|The design or layout of a network, describing how devices are connected to each other.|networking concept
-3→Star Topology|All devices connect to a central switch or hub; most common topology; scalable but expensive and fails if the central device fails.|network topology|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/f32e3d903972d07141bcbf59f87d8caf80cb4ee8.png
-4→Bus Topology|All devices share a single backbone cable; cost-efficient but prone to bottlenecks and has a single point of failure.|network topology|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/e4ed59fdd86a2eab7aa1af28aa8a86bb75045c0e.png
-5→Ring Topology|Devices connect in a loop (token topology); data travels in one direction; easy to troubleshoot but a cable cut breaks the whole network.|network topology|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/db44ea3338dd2cf6b4c3ce98785024cd997f3fd4.png
-6→Backbone Cable|The single shared cable in a bus topology that all devices connect to.|network topology
-7→Switch|A networking device that connects multiple devices within a network and intelligently forwards data only to the intended port, unlike a hub.|networking device|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/97c3448c33e44ce7282b5a40a7c0b0a36c52f336.png
-8→Hub|A basic networking device that sends incoming data to every connected port, unlike a switch which targets specific ports.|networking device
-9→Router|A device that connects multiple networks together and routes data packets between them.|networking device|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/74374b4df1e40165438d43747930b4ed3ffb7f9c.png
-10→Routing|The process of determining the optimal path for data to travel across networks.|networking concept
-11→Subnetting|The practice of splitting a larger network into smaller sub-networks to improve efficiency, security, and control.|networking concept|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/7ac21273ea091f9d6833c35f6015cf3e022d3ca2.png
-12→Subnet Mask|A 32-bit number used to divide an IP address into network and host portions for subnetting.|addressing|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/4985b5719ce4265c639d85440224091affaedf32.png
-13→Network Address|The IP address that identifies the start of a subnet (e.g. 192.168.1.0).|addressing
-14→Host Address|An IP address used to identify a specific device within a subnet.|addressing
-15→Default Gateway|A device on the network that routes traffic destined for other networks; typically the first or last host address (.1 or .254).|addressing
-16→ARP|Address Resolution Protocol; maps IP addresses to MAC addresses on a local network by broadcasting requests.|protocol|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/c1e60ca7ee3ce1b7897937e4e64d29b2fba29853.png
-17→ARP Request|A broadcast message asking "What MAC address owns this IP address?" sent to all devices on the network.|protocol
-18→ARP Reply|A response to an ARP request containing the MAC address that owns the queried IP address.|protocol
-19→ARP Cache|A local table stored on each device that maps known IP addresses to their corresponding MAC addresses.|protocol
-20→DHCP|Dynamic Host Configuration Protocol; automatically assigns IP addresses to devices when they join a network.|protocol|https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/0172458dc62ffa51abf29df64ae4252e3f7e112e.png
-21→DHCP Discover|The initial broadcast message a device sends to find a DHCP server on the network.|protocol
-22→DHCP Offer|The DHCP server's response proposing an IP address for the requesting device to use.|protocol
-23→DHCP Request|The device's message confirming it wants to use the IP address offered by the DHCP server.|protocol
-24→DHCP ACK|The DHCP server's final acknowledgment that the IP address has been assigned and the device may begin using it.|protocol
-25→
+3→Star Topology|All devices connect to a central switch or hub; most common topology; scalable but expensive and fails if the central device fails.|network topology
+4→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/f32e3d903972d07141bcbf59f87d8caf80cb4ee8.png|Identify this network topology|network topology
+5→Bus Topology|All devices share a single backbone cable; cost-efficient but prone to bottlenecks and has a single point of failure.|network topology
+6→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/e4ed59fdd86a2eab7aa1af28aa8a86bb75045c0e.png|Identify this network topology|network topology
+7→Ring Topology|Devices connect in a loop (token topology); data travels in one direction; easy to troubleshoot but a cable cut breaks the whole network.|network topology
+8→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/db44ea3338dd2cf6b4c3ce98785024cd997f3fd4.png|Identify this network topology|network topology
+9→Backbone Cable|The single shared cable in a bus topology that all devices connect to.|network topology
+10→Switch|A networking device that connects multiple devices within a network and intelligently forwards data only to the intended port, unlike a hub.|networking device
+11→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/97c3448c33e44ce7282b5a40a7c0b0a36c52f336.png|What networking device is shown and how does it work?|networking device
+12→Hub|A basic networking device that sends incoming data to every connected port, unlike a switch which targets specific ports.|networking device
+13→Router|A device that connects multiple networks together and routes data packets between them.|networking device
+14→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/74374b4df1e40165438d43747930b4ed3ffb7f9c.png|What does this diagram show about routing?|networking device
+15→Routing|The process of determining the optimal path for data to travel across networks.|networking concept
+16→Subnetting|The practice of splitting a larger network into smaller sub-networks to improve efficiency, security, and control.|networking concept
+17→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/7ac21273ea091f9d6833c35f6015cf3e022d3ca2.png|What concept does this network diagram demonstrate?|networking concept
+18→Subnet Mask|A 32-bit number used to divide an IP address into network and host portions for subnetting.|addressing
+19→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/4985b5719ce4265c639d85440224091affaedf32.png|What does this table explain about subnet masks?|addressing
+20→Network Address|The IP address that identifies the start of a subnet (e.g. 192.168.1.0).|addressing
+21→Host Address|An IP address used to identify a specific device within a subnet.|addressing
+22→Default Gateway|A device on the network that routes traffic destined for other networks; typically the first or last host address (.1 or .254).|addressing
+23→ARP|Address Resolution Protocol; maps IP addresses to MAC addresses on a local network by broadcasting requests.|protocol
+24→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/c1e60ca7ee3ce1b7897937e4e64d29b2fba29853.png|What protocol does this diagram show and how does it work?|protocol
+25→ARP Request|A broadcast message asking "What MAC address owns this IP address?" sent to all devices on the network.|protocol
+26→ARP Reply|A response to an ARP request containing the MAC address that owns the queried IP address.|protocol
+27→ARP Cache|A local table stored on each device that maps known IP addresses to their corresponding MAC addresses.|protocol
+28→DHCP|Dynamic Host Configuration Protocol; automatically assigns IP addresses to devices when they join a network.|protocol
+29→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/0172458dc62ffa51abf29df64ae4252e3f7e112e.png|What protocol does this diagram show? Name each of the 4 steps.|protocol
+30→DHCP Discover|The initial broadcast message a device sends to find a DHCP server on the network.|protocol
+31→DHCP Offer|The DHCP server's response proposing an IP address for the requesting device to use.|protocol
+32→DHCP Request|The device's message confirming it wants to use the IP address offered by the DHCP server.|protocol
+33→DHCP ACK|The DHCP server's final acknowledgment that the IP address has been assigned and the device may begin using it.|protocol
