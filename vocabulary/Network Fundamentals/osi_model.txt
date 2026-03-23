@@ -27,3 +27,4 @@
 27→UDP - Online Gaming|A common use case for UDP where low latency is more important than perfect data reliability.|UDP use case
 28→DNS|Domain Name System; an Application Layer (Layer 7) protocol that translates human-readable website addresses into IP addresses.|protocol
 29→Session|The technical term for an active connection established between two devices at OSI Layer 5; remains open while the connection is active.|OSI concept
+30→UDP - ARP and DHCP|A common use case for UDP involving protocols that transmit small pieces of data where guaranteed delivery is not critical.|UDP use case
