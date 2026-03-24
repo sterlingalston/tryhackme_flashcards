@@ -20,3 +20,5 @@
 20→ISN|Initial Sequence Number; the random number assigned to the first data packet in a TCP connection; each subsequent packet increments by 1.|TCP concept
 21→https://sterlingalston.github.io/tryhackme/packets%20and%20frames/.attachments/7c5d0e0f92263ede1b06c8aeb0487bd3cf342c19.png|TCP Three-Way Handshake — identify each step shown in this diagram|TCP handshake
 22→https://sterlingalston.github.io/tryhackme/packets%20and%20frames/.attachments/d03aa03776453b3767db60f82a0e43e91c0e64ab.png|TCP connection teardown — what does this diagram show?|TCP concept
+23→UDP Stateless|UDP does not send acknowledgements during a connection; there is no guarantee that data is received by the other device.|UDP concept
+24→https://sterlingalston.github.io/tryhackme/packets%20and%20frames/.attachments/2bda37b290faad32c0eaf66c60158d35fc42dc87.png|UDP communication — what does this diagram show?|UDP concept
