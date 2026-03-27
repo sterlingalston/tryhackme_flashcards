@@ -20,3 +20,6 @@
 20→Hexadecimal|A base-16 numbering system used in computing; uses digits 0-9 and letters A-F; commonly used in MAC addresses.|computing concept
 21→ping -c|Ping flag that limits the number of ICMP packets sent (e.g. ping -c 4 google.com sends exactly 4 packets, then stops and shows a summary).|networking command
 22→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/f55fc1c3300c1a3d1b72012ed64839deaee1404c.png|ping -c command — what does this terminal output show?|networking command
+23→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/e4b36967261dc75464f7197edea6b8465c13bc47.png|What is a network? — what does this diagram illustrate about how devices connect?|networking concept
+24→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/21753eac48124384acfc8a4b87cdc2ca6def79a0.png|Networking problem — how can all four people (Bob, Jim, Zayn, and Toby) communicate across a network?|networking concept
+25→https://sterlingalston.github.io/tryhackme/networking%20fundamentals/.attachments/39a37370010fa275ab5bf58e791b38147aa6afab.png|Internet structure — what does this diagram show about how the Internet is organised from private to public networks?|networking concept
