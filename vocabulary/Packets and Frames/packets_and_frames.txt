@@ -1,0 +1,7 @@
+1→Packet|A small piece of data at Layer 3 (Network Layer) of the OSI model; contains an IP header and a payload; has an IP address.|packet concept
+2→Frame|A small piece of data at Layer 2 (Data Link) of the OSI model; encapsulates a packet and adds MAC addresses; does NOT contain an IP address.|packet concept
+3→Encapsulation|The process of wrapping a packet inside a frame (and adding layer-specific headers) as data travels down the OSI model stack for transmission.|packet concept
+4→Packet Header - Time to Live|A field in the IP packet header that sets an expiry timer; prevents packets from clogging the network if they never reach their destination.|packet header
+5→Packet Header - Checksum|A field in the IP packet header used for integrity checking; if the recalculated value on receipt differs from the stored value, the data is considered corrupt.|packet header
+6→Packet Header - Source Address|The IP address of the device that sent the packet, stored in the header so that data knows where to return to.|packet header
+7→Packet Header - Destination Address|The IP address of the device the packet is being sent to, stored in the header so data knows where to travel next.|packet header
