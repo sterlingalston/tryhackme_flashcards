@@ -25,3 +25,4 @@
 25→Source IP|A TCP header field containing the IP address of the device sending the packet.|TCP header
 26→Destination IP|A TCP header field containing the IP address of the device the packet is destined for.|TCP header
 27→TCP Connection Teardown|The process of cleanly closing a TCP connection; initiated with a FIN packet; TCP closes connections as soon as data transfer is confirmed to free up device resources.|TCP concept
+28→TCP Data|The TCP header field where the actual data bytes (e.g. bytes of a file) being transmitted are stored.|TCP header

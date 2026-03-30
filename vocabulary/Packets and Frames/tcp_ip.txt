@@ -25,3 +25,6 @@
 25→UDP Source Address|The IP address of the device sending the UDP packet, stored in the UDP header so data knows where to return to.|UDP header
 26→UDP Destination Address|The IP address of the device the UDP packet is being sent to, stored in the UDP header so data knows where to travel next.|UDP header
 27→UDP Data|The UDP header field where the actual data bytes being transmitted are stored.|UDP header
+28→TCP Source IP|The IP address of the device that is sending the TCP packet.|TCP header
+29→TCP Destination IP|The IP address of the device that the TCP packet is destined for.|TCP header
+30→TCP Data|The TCP header field where the actual data bytes (e.g. bytes of a file) being transmitted are stored.|TCP header
