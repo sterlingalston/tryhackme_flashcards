@@ -9,3 +9,6 @@
 9→Red Teamer|Emulates threat actor behavior to uncover exploitable vulnerabilities, maintain access, and avoid detection within a target organization.|career role
 10→Static Analysis|Examining malware code without executing it; often involves reverse-engineering.|malware analysis technique
 11→Dynamic Analysis|Observing malware behavior by running it in a controlled/sandboxed environment.|malware analysis technique
+12→Why work in cybersecurity - High Pay|Jobs in cybersecurity have high starting salaries.|career motivation
+13→Why work in cybersecurity - Exciting|Work can include legally hacking systems or defending against cyber attacks.|career motivation
+14→Why work in cybersecurity - High Demand|There are over 3.5 million unfilled cyber security positions globally.|career motivation
