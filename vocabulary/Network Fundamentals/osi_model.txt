@@ -28,3 +28,4 @@
 28→DNS|Domain Name System; an Application Layer (Layer 7) protocol that translates human-readable website addresses into IP addresses.|protocol
 29→Session|The technical term for an active connection established between two devices at OSI Layer 5; remains open while the connection is active.|OSI concept
 30→UDP - ARP and DHCP|A common use case for UDP involving protocols that transmit small pieces of data where guaranteed delivery is not critical.|UDP use case
+31→Layer 3 Routing Criteria|Three factors used to determine the optimal routing path: 1) Shortest path (fewest device hops), 2) Most reliable path (no prior packet loss on that path), 3) Fastest physical connection (fibre is considerably faster than copper).|OSI layer
