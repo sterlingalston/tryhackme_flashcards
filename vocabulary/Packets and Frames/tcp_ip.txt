@@ -28,3 +28,10 @@
 28→TCP Source IP|The IP address of the device that is sending the TCP packet.|TCP header
 29→TCP Destination IP|The IP address of the device that the TCP packet is destined for.|TCP header
 30→TCP Data|The TCP header field where the actual data bytes (e.g. bytes of a file) being transmitted are stored.|TCP header
+31→Port|A numerical value between 0 and 65535 used as an endpoint for network communication; networking devices use ports to enforce strict rules when communicating with one another.|networking concept
+32→FTP|File Transfer Protocol; uses port 21; a client-server protocol used to download files from a central location.|common port
+33→SSH|Secure Shell; uses port 22; used to securely log in to systems via a text-based interface for management.|common port
+34→HTTP|HyperText Transfer Protocol; uses port 80; powers the World Wide Web; browsers use it to download text, images, and videos from web pages.|common port
+35→HTTPS|HyperText Transfer Protocol Secure; uses port 443; same as HTTP but secured with encryption.|common port
+36→SMB|Server Message Block; uses port 445; similar to FTP but also allows sharing of devices like printers.|common port
+37→RDP|Remote Desktop Protocol; uses port 3389; allows secure login to a system using a visual desktop interface (as opposed to the text-based SSH).|common port
