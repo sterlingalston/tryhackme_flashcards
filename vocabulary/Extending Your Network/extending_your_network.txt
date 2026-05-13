@@ -5,3 +5,5 @@
 5→Stateful Firewall|A firewall that inspects the entire connection context rather than individual packets; blocks a whole device if bad behavior is detected; more resource-intensive but more intelligent.|firewall type
 6→Stateless Firewall|A firewall that uses a static set of rules to evaluate individual packets independently; less resource-intensive but less intelligent; useful for handling large volumes of traffic such as DDoS attacks.|firewall type
 7→https://sterlingalston.github.io/tryhackme/extending%20your%20network/.attachments/05f09c505fdf7c3782b4786679a25915c88eab1f.png|Firewall categories — identify the two types shown and describe how each evaluates network traffic|firewall type
+8→DDoS|Distributed Denial-of-Service attack; a type of attack where large volumes of traffic from many hosts flood a network or service, making it unavailable; stateless firewalls are particularly useful for handling DDoS traffic.|network attack
+9→Snort|An open-source software firewall and intrusion detection/prevention system; an example of a software-based firewall that can filter network traffic.|security tool
